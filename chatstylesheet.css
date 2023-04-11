@@ -1,70 +1,71 @@
 /*****************************************************************************\
- * General\
- *****************************************************************************/\
-body, input[type="text"], textarea, button, select \{\
-    font-family: "Segoe UI", "Myriad Pro", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;\
-\}\
-\
+/* General *\
 /*****************************************************************************\
- * Container\
- *****************************************************************************/\
+body, input[type="text"], textarea, button, select {
+    font-family: 'motiva-sans', sans-serif;
+    /*font-family: "Segoe UI", "Myriad Pro", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;*\
+}
+
+/*****************************************************************************\
+/* Container *\
+/*****************************************************************************\
 .container, .inner-container, button \{\
     border-radius: 0;\
-\}\
-\
-.inner-container \{\
-    -ms-filter: "none";\
-    background: none;\
-    padding: 0;\
-\}\
-\
+}
+
+.inner-container {
+    -ms-filter: "none";
+    background: none;
+    padding: 0;
+}
+
 /*****************************************************************************\
- * Controls\
- *****************************************************************************/\
-.control \{\
-    background: none !important;\
-    border: 0 !important;\
-    line-height: 1.1;\
-    text-decoration: none !important;\
-    opacity: 0.8 !important;\
-\}\
-\
-.control:hover \{\
-    opacity: 1 !important;\
-\}\
-\
-.control.close:before, .control.end:before \{\
-    color: #fff;\
-    content: "\\00D7";\
-\}\
-\
+/* Controls *\
 /*****************************************************************************\
- * Header\
- *****************************************************************************/\
-.header .logo \{\
-    display: none !important;\
-\}\
-\
-.header .title \{\
-    background: rgba(0, 0, 0, 0.6);\
-    font-size: 14px;\
-    color: #fff;\
-    padding: 5px 8px;\
-\}\
-\
+.control {
+    background: none !important;
+    border: 0 !important;
+    line-height: 1.1;
+    text-decoration: none !important;
+    opacity: 0.8 !important;
+}
+
+.control:hover {
+    opacity: 1 !important;
+}
+
+.control.close:before, .control.end:before {
+    color: #fff;
+    content: "\\00D7";
+}
+
 /*****************************************************************************\
- * Form\
- *****************************************************************************/\
-input[type="text"], textarea, .message-history, select \{\
-    box-shadow: none;\
-\}\
-\
-button, button:active \{\
-    -ms-filter: "none";\
-    background-image: none;\
-    box-shadow: none;\
-\}\
-\
+/* Header *\
+ *****************************************************************************\
+.header .logo {
+    display: none !important;
+}
+
+.header .title {
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+/*****************************************************************************\
+/* Form *\
+/*****************************************************************************\
+input[type="text"], textarea, .message-history, select {
+    box-shadow: none;
+}
+
+button, button:active {
+    -ms-filter: "none";
+    background-image: none;
+    box-shadow: none;
+}
+
 /*****************************************************************************\
  * Introduction\
  *****************************************************************************/\
