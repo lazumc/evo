@@ -48,7 +48,8 @@ body, input[type="text"], textarea, button, select {
 
 .header .title {
     background: rgba(0, 0, 0, 0.6);
-    font-size: 14px;
+    font-size: 24px;
+    font-style: italic;
     color: #fff;
     padding: 5px 8px;
 }
@@ -82,7 +83,7 @@ button, button:active {
 }
 
 /*****************************************************************************/
-/* Messaage                                                                  */
+/* Message                                                                  */
 /*****************************************************************************/
 #message-field {
     border: 0 !important;
